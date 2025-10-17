@@ -3,7 +3,7 @@
 import "./globals.css";
 import Link from "next/link";
 import { Provider } from "react-redux";
-import { store } from "./store";
+import { store } from "./store.js";
 import Footer from "./components/Footer";
 
 export default function RootLayout({ children }) {
