@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo } from "../../redux/todoSlice";
+import { addTodo } from "./todoSlice";
 
 function Todo() {
   const [name, setName] = useState("");
